@@ -4,7 +4,7 @@ import Dictionary from "./Dictionary";
 function App() {
 	return (
 		<div className="App">
-			<Dictionary />
+			<Dictionary defaultKeyword="sunset" />
 			<footer className="text-center">
 				{" "}
 				<small>Coded by Katya Rozhko</small>
